@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+}
+.radio {
+  padding: 0;
+}
+.radio input {
+  display: none;
+}
+.form-group:nth-child(1) {
+    border: solid 1px green;
+}
+.form-group:nth-child(1) label {
+    color: green;
+}
+
+.form-group:nth-child(2) {
+    border: solid 1px red;
+}
+.form-group:nth-child(2) label {
+    color: red;
+}
+
+.form-group:nth-child(3) {
+    border: solid 1px blue;
+}
+.form-group:nth-child(3) label {
+    color: blue;
+}
+.radio label {
+  padding: 7px 17px;
+  text-transform: uppercase;
+}
+
+
+/*.form-group:nth-child(1) a {
+    color: green;
+}
+.form-group:nth-child(2) a {
+    color: red;
+}
+.form-group:nth-child(3) a {
+    color: blue;
+}
+.radio label a {
+  text-decoration: none;
+}*/
