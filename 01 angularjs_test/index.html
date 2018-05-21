@@ -36,7 +36,7 @@
             <div class="form-group" ng-repeat="p in params">
                 <label>{{p.Title}}</label>
                 <input type="text" class="form-control" placeholder="{{p.Description}}" required ng-model="p.Value" ng-maxlength="{{p.MaxLength}}" name="param">
-                <small class="form-text text-muted">Available symbols: <span>{{param}}</span></small>
+                <small class="form-text text-muted">Available symbols: <span>{{p.MaxLength - param}}</span></small>
             </div>
             <button type="submit" class="btn btn-success" ng-click="save(answer, paramForm)">Submit</button>
         </form>
